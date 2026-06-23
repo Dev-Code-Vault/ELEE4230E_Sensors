@@ -1,0 +1,57 @@
+# .gitignore
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PlatformIO
+.pio/
+.piolibdeps/
+
+# Arduino
+build/
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temp Files
+*.tmp
+*.temp
+*.swp
+
+# Environment Variables
+.env
+
+# WiFi Credentials
+wifi_credentials.h
+secrets.h
+
+# KiCad Backups
+*-backups/
+*.bak
+
+# Altium Backups
+History/
+
+# Eagle Backups
+*.b#*
+*.s#*
+
+# Generated Plot Files
+*.svg~
