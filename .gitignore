@@ -1,5 +1,8 @@
 # .gitignore
 
+secrets.h
+**/secrets.h
+
 # Operating System Files
 .DS_Store
 Thumbs.db
